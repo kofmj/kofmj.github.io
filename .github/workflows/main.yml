@@ -10,7 +10,7 @@ jobs:
   git-mirror:
     runs-on: ubuntu-latest
     steps:
-      - uses: kofmj/kofmj.github.io@v1
+      - uses: wearerequired/git-mirror-action@v1
         env:
           SSH_PRIVATE_KEY: ${{ secrets.kofmj_gitee }}
         with:
